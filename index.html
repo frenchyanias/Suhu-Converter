@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhu Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Suhu Converter</h2>
+      <div class="input-container">
+        <label for="inputTemp">Masukkan Suhu (Celcius)</label>
+        <input type="number" id="inputTemp" placeholder="Masukkan suhu dalam Celcius" required />
+        <button onclick="convertToCelcius()">Konversi ke Fahrenheit</button>
+        <button onclick="convertToFahrenheit()">Konversi ke Celcius</button>
+      </div>
+      <div id="resultContainer">
+        <p id="result"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
